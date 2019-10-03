@@ -1,12 +1,23 @@
 {
-  "name": "backend",
+  "name": "aircnc-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoDanilo/aircnc-backend.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoDanilo/aircnc-backend/issues"
+  },
+  "homepage": "https://github.com/JoaoDanilo/aircnc-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
