@@ -10,7 +10,7 @@ mongoose.connect('mongodb+srv://aircnc:aircnc@aircnc-eimhg.mongodb.net/aircnc?re
     useUnifiedTopology : true
 });
 
-app.use(cors())
+app.use(cors());
 app.use(express.json());
 app.use(routes);
 
